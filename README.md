@@ -11,6 +11,6 @@ With this app I tried out Java. I made my portolio in Java, HTML and CSS. When y
 - HTML
 - CSS
 
-![](java-portfolio1.gif)
+![](Java-portfolio1.gif)
 
-![](java-portfolio2.gif)
+![](Java-portfolio-2.gif)
