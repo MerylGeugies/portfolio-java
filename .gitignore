@@ -10,3 +10,4 @@ projectName.iml
 target/
 out/
 EmailSender.java
+src/main/java/com/example/portfolio/EmailSender.java
