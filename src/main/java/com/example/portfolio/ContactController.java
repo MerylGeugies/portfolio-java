@@ -21,7 +21,6 @@ public class ContactController {
 
     @GetMapping("/contact")
     public String contactform(Model model){
-        //model.addAttribute("contact", new Contact());
         return "contact";
     }
 
@@ -34,7 +33,6 @@ public class ContactController {
         }
 
         EmailSender sender = new EmailSender();
-
 
         String subject = "Mail recieved from: " + contact.getName() + "(" + contact.getEmail() + ")";
         Content content = new Content("text/html", contact.getPhone() + "<br/>" + contact.getMessage());

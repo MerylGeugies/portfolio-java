@@ -1,9 +1,63 @@
+a{
+  color: black;
+}
 body {
   background-color: #DAA520;
   font-family: 'DM Sans', sans-serif;
   padding-top:70px;
 }
-
+img {
+  border-radius: 50%;
+}
+input {
+   border: 0;
+   border-bottom: 2px solid white;
+   outline: 0;
+   background-color: #DAA520;
+ }
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 30px;
+    display: inline-block;
+  }
+input[type=submit] {
+     background-color: #DAA520;
+     width: 100px;
+     border: 2px solid;
+     border-color: white;
+     color: white;
+     padding: 14px 20px;
+     margin: 8px 0;
+     border-radius: 4px;
+     cursor: pointer;
+     text-align: center;
+}
+input[type=submit]:hover {
+  border-color: black;
+  color: black
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 30px;
+    display: inline-block;
+  }
+picture {
+  align-self: center;
+}
+textarea {
+   border: 0;
+   border-bottom: 2px solid white;
+   outline: 0;
+   background-color: #DAA520;
+   width: 100%;
+ }
+th, td {
+   padding: 10px;
+   text-align: left;
+   border-bottom: 2px solid white;
+ }
 .container {
   margin-top: 60px;
   position: center;
@@ -11,88 +65,6 @@ body {
   padding-bottom: 10px;
   grid-template-columns: 100%;
   margin-left: 25px;
-}
-
-img {
-  border-radius: 50%;
-}
-
-picture {
-  align-self: center;
-}
-
-#info {
-  border-collapse: collapse;
-  width: 100%
-}
-
-#info tr:hover {
-  color: white;
-}
-
-th, td {
-  padding: 10px;
-  text-align: left;
-  border-bottom: 2px solid white;
-}
-
-#info th {
-  padding-top: 12px;
-  padding-bottom: 20px;
-  text-align: left;
-  border-bottom: black ;
-  color: black;
-}
-
-input {
-  border: 0;
-  border-bottom: 2px solid white;
-  outline: 0;
-  background-color: #DAA520;
-}
-
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0 30px;
-  display: inline-block;
-}
-
-textarea {
-  border: 0;
-  border-bottom: 2px solid white;
-  outline: 0;
-  background-color: #DAA520;
-  width: 100%;
-}
-
-::placeholder {
-  color: black;
-}
-
-input[type=email], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0 30px;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #DAA520;
-  width: 100px;
-  border: 2px solid;
-  border-color: white;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border-radius: 4px;
-  cursor: pointer;
-  text-align: center;
-}
-
-input[type=submit]:hover {
-  border-color: black;
-  color: black
 }
 .form-control{
   border: 0;
@@ -103,6 +75,20 @@ input[type=submit]:hover {
 .navbar-dark .navbar-nav .nav-link{
   color: white;
 }
-a{
+#info {
+  border-collapse: collapse;
+  width: 100%
+}
+#info tr:hover {
+  color: white;
+}
+#info th {
+  padding-top: 12px;
+  padding-bottom: 20px;
+  text-align: left;
+  border-bottom: black ;
+  color: black;
+}
+::placeholder {
   color: black;
 }
