@@ -4,9 +4,10 @@ a{
 body {
   background-color: #DAA520;
   font-family: 'DM Sans', sans-serif;
+    padding-bottom: 100px;
   padding-top:70px;
 }
-img {
+img.picture {
   border-radius: 50%;
 }
 input {
@@ -23,7 +24,7 @@ input[type=email], select {
   }
 input[type=submit] {
      background-color: #DAA520;
-     width: 100px;
+     width: 180px;
      border: 2px solid;
      border-color: white;
      color: white;
@@ -42,7 +43,10 @@ input[type=text], select {
     padding: 12px 20px;
     margin: 8px 0 30px;
     display: inline-block;
-  }
+}
+h3, h6{
+    padding-bottom: 15px;
+}
 picture {
   align-self: center;
 }
@@ -64,13 +68,24 @@ th, td {
   min-height: 100%;
   padding-bottom: 10px;
   grid-template-columns: 100%;
-  margin-left: 25px;
 }
 .form-control{
   border: 0;
   border-bottom: 2px solid white;
   outline: 0;
   background-color: #DAA520;
+}
+div.icons{
+    text-align: center;
+}
+a{
+    size: 30px;
+}
+a.fa{
+    padding-left: 10px;
+}
+a:hover{
+    color: white;
 }
 .navbar-dark .navbar-nav .nav-link{
   color: white;
@@ -88,6 +103,13 @@ th, td {
   text-align: left;
   border-bottom: black ;
   color: black;
+}
+#map{
+    width: 100%;
+    height: 500px;
+}
+.page-footer{
+    background-color: #DAA520;
 }
 ::placeholder {
   color: black;

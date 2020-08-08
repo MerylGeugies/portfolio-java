@@ -1,35 +1,45 @@
 <!DOCTYPE html>
-<html xmlns:layout="http://www.w3.org/1999/xhtml" layout:decorate="~{main_layout}" lang="">
+<html lang="" layout:decorate="~{main_layout}" xmlns:layout="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Contact</title>
+    <title>Contact</title>
 </head>
 <body>
-  <div layout:fragment="content" class="container">
+<div class="container" layout:fragment="content">
     <div class="row">
-      <div class="col-12">
-        <form method="post">
-          <div class="form-group">
-            <label for="name">Naam</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Naam">
-          </div>
-          <div class="form-group">
-            <label for="email">E-mailadres</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="E-mailadres" required>
-          </div>
-          <div class="form-group">
-            <label for="phone"> Telefoonnummer </label>
-            <input type="text" class="form-control" id="phone" name="phone" placeholder="Telefoonnummer">
-          </div>
-          <div class="form-group">
-            <label for="message"> Bericht </label>
-            <textarea id="message" class="form-control" name="message" placeholder="Bericht"> </textarea>
-          </div>
-          <div class="form-group">
-            <input type="submit" class="btn" value="Zend">
-          </div>
-        </form>
+        <div class="col-sm-12">
+            <h3> Heb een vraag?</h3>
+        </div>
     </div>
+    <div class="row">
+        <div class="col-sm-6 justify-content-start">
+            <h6>Vul dan het formulier in en ik neem zo snel mogelijk contact met je op. </h6>
+            <form class="form-group" method="post">
+                <div class="form-group">
+                    <label for="name">Naam</label>
+                    <input class="form-control" id="name" name="name" placeholder="Naam" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mailadres</label>
+                    <input class="form-control" id="email" name="email" placeholder="E-mailadres" required type="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone"> Telefoonnummer </label>
+                    <input class="form-control" id="phone" name="phone" placeholder="Telefoonnummer" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="message"> Bericht </label>
+                    <textarea class="form-control" id="message" name="message" placeholder="Bericht"> </textarea>
+                </div>
+                <div class="form-group">
+                    <input class="btn" type="submit" value="Verzenden">
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-6 justify-content-end">
+            <h6> Of kom langs en stel je vraag persoonlijk </h6>
+            <div class="googlemap" id="map"></div>
+        </div>
     </div>
-  </div>
+</div>
 </body>
 </html>
