@@ -6,8 +6,10 @@ With this app I tried out Java. I made my portolio in Java, HTML and CSS. When y
 
 ## :point_right: [checkout the deployed version here](https://www.merylsnieuws.nl) :point_left:
 
-###Technologies used
+### Technologies used
 - Java
+- SpringMVC
+- JavaScript
 - HTML
 - CSS
 
